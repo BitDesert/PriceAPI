@@ -1,0 +1,26 @@
+{
+  "name": "priceapi",
+  "version": "1.0.0",
+  "description": "Relays and caches the price data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitDesert/PriceAPI.git"
+  },
+  "author": "BitDesert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BitDesert/PriceAPI/issues"
+  },
+  "homepage": "https://github.com/BitDesert/PriceAPI#readme",
+  "devDependencies": {
+    "@vercel/node": "^1.9.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-cache": "^5.1.2"
+  }
+}
